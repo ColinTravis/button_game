@@ -1,0 +1,26 @@
+{
+  "name": "superscreen",
+  "version": "1.0.0",
+  "description": "Interactive Drawing",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ColinTravis/superscreen.git"
+  },
+  "author": "Colin Travis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ColinTravis/superscreen/issues"
+  },
+  "homepage": "https://github.com/ColinTravis/superscreen#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "p5bots": "^0.3.2",
+    "p5bots-server": "^0.3.2",
+    "socket.io": "^1.5.0"
+  }
+}
