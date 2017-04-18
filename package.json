@@ -1,7 +1,7 @@
 {
-  "name": "superscreen",
+  "name": "button_game",
   "version": "1.0.0",
-  "description": "Interactive Drawing",
+  "description": "Interactive Physical Game",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
@@ -9,17 +9,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ColinTravis/superscreen.git"
+    "url": "git+https://github.com/ColinTravis/button_game.git"
   },
   "author": "Colin Travis",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ColinTravis/superscreen/issues"
+    "url": "https://github.com/ColinTravis/button_game/issues"
   },
-  "homepage": "https://github.com/ColinTravis/superscreen#readme",
+  "homepage": "https://github.com/ColinTravis/button_game#readme",
   "dependencies": {
     "express": "^4.14.0",
-    "p5bots": "^0.3.2",
+    "p5": "^0.5.8",
     "p5bots-server": "^0.3.2",
     "socket.io": "^1.5.0"
   }

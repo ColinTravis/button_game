@@ -1,7 +1,14 @@
-// var socket = io.connect('http://150.253.88.129:3000');
+// var socket = io.connect('http://150.253.89.241:8000');
 
-var options = ['sketch.html', 'width.html', 'colors.html', 'background.html', 'clear.html']
+function setup(){
+  createCanvas(windowWidth,windowHeight)
+}
+function draw(){
+  background(255,0,0)
+  text('this is the p5canvas', 50,50)
+}
 
-rand = Math.floor(Math.random()* options.length)
-
-window.location.replace( options[rand] );
+$("#testButton").click(function() {
+  console.log("Test Clicked");
+  socket.emit('testSent', "This is a Test-should be stored inside the function");
+});
